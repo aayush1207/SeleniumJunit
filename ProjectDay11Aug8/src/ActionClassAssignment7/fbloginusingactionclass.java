@@ -22,8 +22,6 @@ public class fbloginusingactionclass
 				WebElement password = driver.findElementById("pass");
 				password.sendKeys("1234");
 				ak.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform();
-//				WebElement login = driver.findElementById("u_0_f");
-//				login.click();
 		}
 	}
 

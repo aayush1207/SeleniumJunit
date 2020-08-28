@@ -1,3 +1,5 @@
+// Action Class - Assignment 1 - MMT From and To.
+
 package Actionclass;
 
 import org.openqa.selenium.*;
@@ -14,9 +16,6 @@ public class assignmentactionclass
 					ChromeDriver driver = new ChromeDriver();
 					driver.get("https://www.makemytrip.com/"); 
 					driver.manage().window().maximize();	
-//					WebElement click = driver.findElement(By.cssSelector("div[data-cy='outsideModal']"));
-//					click.click();
-//					Thread.sleep(3000);
 					WebElement fcity = driver.findElementById("fromCity");
 					fcity.click();
 					WebElement from = driver.findElement(By.cssSelector("input[placeholder='From']"));
